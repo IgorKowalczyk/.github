@@ -25,6 +25,14 @@ body:
    validations:
     required: true
 
+ - type: input
+   id: version
+   attributes:
+    label: "Software Version"
+    description: "What version of the software are you using?"
+   validations:
+    required: true
+
  - type: textarea
    id: expected-behavior
    attributes:
@@ -79,6 +87,7 @@ body:
    attributes:
     label: "Type"
     description: "What type of bug is it?"
+    multiple: true
     options:
      - "Functional"
      - "Performance"
@@ -96,9 +105,9 @@ body:
     description: "Is the bug reproducible?"
     options:
      - label: "Yes"
-       required: true
+       required: false
      - label: "No"
-       required: true
+       required: false
 
  - type: textarea
    id: additional-information
