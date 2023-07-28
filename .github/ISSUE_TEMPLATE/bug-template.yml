@@ -1,0 +1,108 @@
+name: "🐛 Bug Template"
+description: "File a bug report here"
+title: "[BUG]: "
+labels: ["bug"]
+assignees: ["igorkowalczyk"]
+body:
+ - type: textarea
+   id: environment
+   attributes:
+    label: "Environment"
+    description: "Describe on what you ran the project - e.g. browser version, environment version, etc."
+   validations:
+    required: true
+
+ - type: textarea
+   id: steps-to-reproduce
+   attributes:
+    label: "Steps To Reproduce"
+    description: "Steps to reproduce the behavior."
+    placeholder: |
+     1. Go to '...'
+     2. Click on '...'
+     3. Scroll down to '...'
+     4. See error
+   validations:
+    required: true
+
+ - type: textarea
+   id: expected-behavior
+   attributes:
+    label: "Expected Behavior"
+    description: "A clear and concise description of what you expected to happen."
+   validations:
+    required: true
+
+ - type: textarea
+   id: actual-behavior
+   attributes:
+    label: "Actual Behavior"
+    description: "A clear and concise description of what actually happened."
+   validations:
+    required: true
+
+ - type: textarea
+   id: screenshots
+   attributes:
+    label: "Screenshots"
+    description: "If applicable, add screenshots to help explain your problem."
+   validations:
+    required: false
+
+ - type: dropdown
+   id: priority
+   attributes:
+    label: "Severity"
+    description: "How severe is the bug?"
+    options:
+     - "Critical"
+     - "Major"
+     - "Minor"
+     - "Trivial"
+   validations:
+    required: true
+
+ - type: dropdown
+   id: priority
+   attributes:
+    label: "Priority"
+    description: "How important is it to fix the bug?"
+    options:
+     - "High"
+     - "Medium"
+     - "Low"
+   validations:
+    required: true
+
+ - type: dropdown
+   id: type
+   attributes:
+    label: "Type"
+    description: "What type of bug is it?"
+    options:
+     - "Functional"
+     - "Performance"
+     - "Usability"
+     - "Compatibility"
+     - "Security"
+     - "Other"
+   validations:
+    required: true
+
+ - type: checkboxes
+   id: reproducible
+   attributes:
+    label: "Reproducible"
+    description: "Is the bug reproducible?"
+    options:
+     - label: "Yes"
+       required: true
+     - label: "No"
+       required: true
+
+ - type: textarea
+   id: additional-information
+   attributes:
+    label: "Additional Information"
+    description: |
+     Provide any additional information such as logs, screenshots, likes, scenarios in which the bug occurs so that it facilitates resolving the issue.
