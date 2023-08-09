@@ -1,7 +1,7 @@
 # Reporting Security Issues
 
-If you believe you have found a security vulnerability, I encourage you to let me know right away.
+If you believe you have found a security vulnerability, we encourage you to let us know right away.
 
-I will investigate all legitimate reports and do my best to quickly fix the problem.
+We will investigate all legitimate reports and do our best to quickly fix the problem.
 
 Email majonezexe@pm.me to disclose any security vulnerabilities.
