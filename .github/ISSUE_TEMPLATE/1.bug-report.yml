@@ -1,8 +1,9 @@
 name: "🐛 Bug Template"
-description: "File a bug report here"
-title: "[BUG]: "
-labels: ["bug"]
-assignees: ["igorkowalczyk"]
+description: "File a bug report to help us improve the project."
+labels:
+ - "bug"
+assignees:
+ - "igorkowalczyk"
 body:
  - type: textarea
    id: environment
@@ -97,17 +98,6 @@ body:
      - "Other"
    validations:
     required: true
-
- - type: checkboxes
-   id: reproducible
-   attributes:
-    label: "Reproducible"
-    description: "Is the bug reproducible?"
-    options:
-     - label: "Yes"
-       required: false
-     - label: "No"
-       required: false
 
  - type: textarea
    id: additional-information

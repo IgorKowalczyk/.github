@@ -1,23 +1,42 @@
-name: "📚 Docs Request for an Update or Improvement"
-description: A request to update or improve the documentation
-title: "[DOCS]: "
-labels: ["documentation"]
+name: "📚 Documentation needs improvement"
+description: "Request a documentation improvement to help us improve the project."
+labels:
+ - documentation
+assignees:
+ - "igorkowalczyk"
 body:
  - type: markdown
    attributes:
     value: Before opening this issue to request a docs improvement, is this something you can help us with? Your contributions are welcomed and appreciated.
- - type: markdown
-   attributes:
-    value: Thank you for helping us improve the docs!
- - type: textarea
-   attributes:
-    label: What is the improvement or update you wish to see?
-    description: "Example: I would like to see more examples of how to use the `@actions/core` package."
-   validations:
+
+- type: textarea
+  id: page
+  attributes:
+    label: What page(s) need to be changed or created?
+    description: Please provide a link to the page(s) that need to be changed or created.
+  validations:
     required: true
- - type: textarea
-   attributes:
-    label: Is there any context that might help us understand?
-    description: A clear description of any added context that might help us understand.
-   validations:
+
+- type: textarea
+  id: issue
+  attributes:
+    label: What documentation issue do you want to solve?
+    description: Please explain your issue in as much detail as possible.
+  validations:
     required: true
+
+- type: textarea
+  id: solution
+  attributes:
+    label: What do you think is the correct solution?
+    description: Please explain what you think the correct solution is.
+  validations:
+    required: true
+
+- type: textarea
+  id: additional-comments
+  attributes:
+    label: Additional comments
+    description: Is there anything else that's important for us to know?
+  validations:
+    required: false
