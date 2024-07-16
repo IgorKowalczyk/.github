@@ -6,38 +6,38 @@ assignees:
  - "igorkowalczyk"
 body:
  - type: markdown
-   id: before-opening
+   id: intro
    attributes:
-    value: "Before opening this issue to request a docs improvement, is this something you can help us with? Your contributions are welcomed and appreciated."
+    value: "Before opening this issue to request a docs improvement, is this something you can help us with? Your contributions are welcomed and appreciated. If you're able to, please consider submitting a pull request with the changes you'd like to see. If you're not able to, please fill out the form below to help us understand what needs to be improved."
 
-- type: textarea
-  id: page
-  attributes:
+ - type: textarea
+   id: page
+   attributes:
     label: "What page(s) need to be changed or created?"
     description: "Please provide a link to the page(s) that need to be changed or created."
-  validations:
+   validations:
     required: true
 
-- type: textarea
-  id: issue
-  attributes:
+ - type: textarea
+   id: issue
+   attributes:
     label: "What documentation issue do you want to solve?"
     description: "Please explain your issue in as much detail as possible."
-  validations:
+   validations:
     required: true
 
-- type: textarea
-  id: solution
-  attributes:
+ - type: textarea
+   id: solution
+   attributes:
     label: "What do you think is the correct solution?"
     description: "Please explain what you think the correct solution is."
-  validations:
+   validations:
     required: true
 
-- type: textarea
-  id: additional-comments
-  attributes:
+ - type: textarea
+   id: additional-comments
+   attributes:
     label: "Additional comments"
     description: "Is there anything else that's important for us to know?"
-  validations:
+   validations:
     required: false
