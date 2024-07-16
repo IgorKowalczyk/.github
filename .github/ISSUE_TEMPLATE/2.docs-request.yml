@@ -1,42 +1,43 @@
 name: "📚 Documentation needs improvement"
 description: "Request a documentation improvement to help us improve the project."
 labels:
- - documentation
+ - "documentation"
 assignees:
  - "igorkowalczyk"
 body:
  - type: markdown
+   id: before-opening
    attributes:
-    value: Before opening this issue to request a docs improvement, is this something you can help us with? Your contributions are welcomed and appreciated.
+    value: "Before opening this issue to request a docs improvement, is this something you can help us with? Your contributions are welcomed and appreciated."
 
 - type: textarea
   id: page
   attributes:
-    label: What page(s) need to be changed or created?
-    description: Please provide a link to the page(s) that need to be changed or created.
+    label: "What page(s) need to be changed or created?"
+    description: "Please provide a link to the page(s) that need to be changed or created."
   validations:
     required: true
 
 - type: textarea
   id: issue
   attributes:
-    label: What documentation issue do you want to solve?
-    description: Please explain your issue in as much detail as possible.
+    label: "What documentation issue do you want to solve?"
+    description: "Please explain your issue in as much detail as possible."
   validations:
     required: true
 
 - type: textarea
   id: solution
   attributes:
-    label: What do you think is the correct solution?
-    description: Please explain what you think the correct solution is.
+    label: "What do you think is the correct solution?"
+    description: "Please explain what you think the correct solution is."
   validations:
     required: true
 
 - type: textarea
   id: additional-comments
   attributes:
-    label: Additional comments
-    description: Is there anything else that's important for us to know?
+    label: "Additional comments"
+    description: "Is there anything else that's important for us to know?"
   validations:
     required: false
