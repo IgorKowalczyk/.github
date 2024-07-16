@@ -1,7 +1,7 @@
 name: "📚 Documentation needs improvement"
 description: "Request a documentation improvement to help us improve the project."
 labels:
- - "documentation"
+ - "docs"
 assignees:
  - "igorkowalczyk"
 body:
