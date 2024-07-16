@@ -15,6 +15,7 @@ body:
    attributes:
     label: "What page(s) need to be changed or created?"
     description: "Please provide a link to the page(s) that need to be changed or created."
+    placeholder: "e.g. https://example.com/docs/page"
    validations:
     required: true
 
@@ -23,6 +24,7 @@ body:
    attributes:
     label: "What documentation issue do you want to solve?"
     description: "Please explain your issue in as much detail as possible."
+    placeholder: "e.g. The page is missing information about..."
    validations:
     required: true
 
@@ -31,6 +33,7 @@ body:
    attributes:
     label: "What do you think is the correct solution?"
     description: "Please explain what you think the correct solution is."
+    placeholder: "e.g. The page should include information about..."
    validations:
     required: true
 
